@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🥞 Fluffy Pancakes | Odin Recipes</title>
+    <title>Fluffy Pancakes | Odin Recipes</title>
 
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -12,24 +12,35 @@
 
     <div class="container">
 
-        <a class="back" href="../index.html">⬅ Back to Home</a>
+        <a class="back" href="../index.html"><span class="arrow">←</span> Back to Home</a>
 
-        <header>
-            <h1>🥞 Fluffy Pancakes</h1>
+        <header data-reveal>
+            <span class="eyebrow">Breakfast · Sunday Morning</span>
+            <h1><span class="emoji-float">🥞</span> Fluffy <em>Pancakes</em></h1>
 
             <p class="intro">
-                Start your morning with soft, fluffy pancakes that are light, delicious, and perfect with maple syrup, butter, honey, or fresh fruits.
+                Soft, fluffy, and stacked high — the kind of breakfast that
+                turns a slow morning into a good one.
             </p>
         </header>
 
-        <img
-            src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Stack_of_pancakes.jpg"
-            alt="Fluffy Pancakes">
+        <div class="stat-strip stagger">
+            <div class="stat" data-reveal><span class="stat-value"><span class="count" data-target="10">0</span> min</span><span class="stat-label">Prep</span></div>
+            <div class="stat" data-reveal><span class="stat-value"><span class="count" data-target="10">0</span> min</span><span class="stat-label">Cook</span></div>
+            <div class="stat" data-reveal><span class="stat-value"><span class="count" data-target="4">0</span></span><span class="stat-label">Serves</span></div>
+            <div class="stat" data-reveal><span class="stat-value">Easy</span><span class="stat-label">Difficulty</span></div>
+        </div>
 
-        <section>
+        <div class="photo-frame" data-reveal>
+            <span class="tape tl"></span>
+            <span class="tape tr"></span>
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Stack_of_pancakes.jpg"
+                alt="Fluffy Pancakes">
+        </div>
 
+        <section data-reveal>
             <h2>📖 Description</h2>
-
             <p>
                 Pancakes are one of the world's most popular breakfast dishes.
                 They are made using a simple batter of flour, eggs, milk, sugar,
@@ -38,51 +49,45 @@
                 maple syrup, honey, fresh berries, bananas, or whipped cream for
                 an unforgettable breakfast.
             </p>
-
         </section>
 
-        <section>
-
+        <section data-reveal>
             <h2>🛒 Ingredients</h2>
-
-            <ul>
-                <li>🥣 2 cups All-purpose flour</li>
-                <li>🥛 1½ cups Milk</li>
-                <li>🥚 2 Eggs</li>
-                <li>🍬 2 tablespoons Sugar</li>
-                <li>🧁 2 teaspoons Baking powder</li>
-                <li>🧈 2 tablespoons Melted butter</li>
-                <li>🌿 1 teaspoon Vanilla extract</li>
-                <li>🧂 A pinch of Salt</li>
-                <li>🍯 Maple syrup or Honey</li>
-                <li>🍓 Fresh fruits (optional)</li>
+            <ul class="ingredients stagger">
+                <li data-reveal>🥣 2 cups all-purpose flour</li>
+                <li data-reveal>🥛 1½ cups milk</li>
+                <li data-reveal>🥚 2 eggs</li>
+                <li data-reveal>🍬 2 tbsp sugar</li>
+                <li data-reveal>🧁 2 tsp baking powder</li>
+                <li data-reveal>🧈 2 tbsp melted butter</li>
+                <li data-reveal>🌿 1 tsp vanilla extract</li>
+                <li data-reveal>🧂 A pinch of salt</li>
+                <li data-reveal>🍯 Maple syrup or honey</li>
+                <li data-reveal>🍓 Fresh fruits, optional</li>
             </ul>
-
         </section>
 
-        <section>
-
+        <section data-reveal>
             <h2>👨‍🍳 Cooking Instructions</h2>
-
-            <ol>
-                <li>Mix flour, sugar, baking powder, and salt in a large bowl.</li>
-                <li>Whisk together milk, eggs, vanilla extract, and melted butter.</li>
-                <li>Pour the wet ingredients into the dry ingredients and stir until smooth.</li>
-                <li>Heat a lightly buttered non-stick pan over medium heat.</li>
-                <li>Pour about ¼ cup of batter onto the pan.</li>
-                <li>Cook until bubbles appear on the surface.</li>
-                <li>Flip the pancake and cook the other side until golden brown.</li>
-                <li>Repeat for the remaining batter.</li>
-                <li>Serve warm with maple syrup, honey, butter, or fresh fruits.</li>
+            <ol class="steps stagger">
+                <li data-reveal>Mix flour, sugar, baking powder, and salt in a large bowl.</li>
+                <li data-reveal>Whisk together milk, eggs, vanilla extract, and melted butter.</li>
+                <li data-reveal>Pour the wet ingredients into the dry ingredients and stir until smooth.</li>
+                <li data-reveal>Heat a lightly buttered non-stick pan over medium heat.</li>
+                <li data-reveal>Pour about ¼ cup of batter onto the pan.</li>
+                <li data-reveal>Cook until bubbles appear on the surface.</li>
+                <li data-reveal>Flip the pancake and cook the other side until golden brown.</li>
+                <li data-reveal>Repeat for the remaining batter.</li>
+                <li data-reveal>Serve warm with maple syrup, honey, butter, or fresh fruits.</li>
             </ol>
-
         </section>
 
-        <footer>
+        <footer data-reveal>
             <p>🥞 Enjoy your soft, fluffy homemade pancakes!</p>
         </footer>
 
     </div>
 
+    <script src="../script.js"></script>
 </body>
 </html>

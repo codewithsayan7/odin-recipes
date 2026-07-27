@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🍕 Homemade Pizza | Odin Recipes</title>
+    <title>Homemade Pizza | Odin Recipes</title>
 
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -12,23 +12,36 @@
 
     <div class="container">
 
-        <a class="back" href="../index.html">⬅ Back to Home</a>
+        <a class="back" href="../index.html"><span class="arrow">←</span> Back to Home</a>
 
-        <header>
-            <h1>🍕 Homemade Pizza</h1>
+        <header data-reveal>
+            <span class="eyebrow">Italian · Weeknight Favorite</span>
+            <h1><span class="emoji-float">🍕</span> Homemade <em>Pizza</em></h1>
 
             <p class="intro">
-                Crispy crust, rich tomato sauce, melted mozzarella cheese, and your favorite toppings make homemade pizza one of the world's most loved comfort foods.
+                Crispy crust, rich tomato sauce, melted mozzarella, and
+                whatever toppings you're craving — better than delivery,
+                every time.
             </p>
         </header>
 
-        <img
-            src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg"
-            alt="Homemade Pizza">
+        <div class="stat-strip stagger">
+            <div class="stat" data-reveal><span class="stat-value"><span class="count" data-target="15">0</span> min</span><span class="stat-label">Prep</span></div>
+            <div class="stat" data-reveal><span class="stat-value"><span class="count" data-target="18">0</span> min</span><span class="stat-label">Cook</span></div>
+            <div class="stat" data-reveal><span class="stat-value"><span class="count" data-target="4">0</span></span><span class="stat-label">Serves</span></div>
+            <div class="stat" data-reveal><span class="stat-value">Easy</span><span class="stat-label">Difficulty</span></div>
+        </div>
 
-        <section>
+        <div class="photo-frame" data-reveal>
+            <span class="tape tl"></span>
+            <span class="tape tr"></span>
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg"
+                alt="Homemade Pizza">
+        </div>
+
+        <section data-reveal>
             <h2>📖 Description</h2>
-
             <p>
                 Pizza originated in Italy and has become one of the most popular
                 dishes around the world. Homemade pizza lets you customize your
@@ -38,45 +51,44 @@
             </p>
         </section>
 
-        <section>
+        <section data-reveal>
             <h2>🛒 Ingredients</h2>
-
-            <ul>
-                <li>🍞 1 Pizza dough</li>
-                <li>🍅 1 cup Tomato sauce</li>
-                <li>🧀 2 cups Mozzarella cheese</li>
-                <li>🍖 Pepperoni slices</li>
-                <li>🫒 2 tbsp Olive oil</li>
-                <li>🫑 Bell peppers</li>
-                <li>🧅 Onion slices</li>
-                <li>🍄 Mushrooms</li>
-                <li>🌿 Italian seasoning</li>
-                <li>🌱 Fresh basil leaves (optional)</li>
+            <ul class="ingredients stagger">
+                <li data-reveal>🍞 1 pizza dough</li>
+                <li data-reveal>🍅 1 cup tomato sauce</li>
+                <li data-reveal>🧀 2 cups mozzarella cheese</li>
+                <li data-reveal>🍖 Pepperoni slices</li>
+                <li data-reveal>🫒 2 tbsp olive oil</li>
+                <li data-reveal>🫑 Bell peppers</li>
+                <li data-reveal>🧅 Onion slices</li>
+                <li data-reveal>🍄 Mushrooms</li>
+                <li data-reveal>🌿 Italian seasoning</li>
+                <li data-reveal>🌱 Fresh basil leaves, optional</li>
             </ul>
         </section>
 
-        <section>
+        <section data-reveal>
             <h2>👨‍🍳 Cooking Instructions</h2>
-
-            <ol>
-                <li>Preheat the oven to <strong>200°C (392°F)</strong>.</li>
-                <li>Roll out the pizza dough on a baking tray.</li>
-                <li>Spread tomato sauce evenly over the dough.</li>
-                <li>Sprinkle mozzarella cheese generously.</li>
-                <li>Add pepperoni, mushrooms, onions, and bell peppers.</li>
-                <li>Drizzle olive oil over the toppings.</li>
-                <li>Sprinkle Italian seasoning for extra flavor.</li>
-                <li>Bake for <strong>15–20 minutes</strong> until the crust becomes golden brown.</li>
-                <li>Remove from the oven and let it cool for 2–3 minutes.</li>
-                <li>Slice into pieces and serve hot.</li>
+            <ol class="steps stagger">
+                <li data-reveal>Preheat the oven to <strong>200°C (392°F)</strong>.</li>
+                <li data-reveal>Roll out the pizza dough on a baking tray.</li>
+                <li data-reveal>Spread tomato sauce evenly over the dough.</li>
+                <li data-reveal>Sprinkle mozzarella cheese generously.</li>
+                <li data-reveal>Add pepperoni, mushrooms, onions, and bell peppers.</li>
+                <li data-reveal>Drizzle olive oil over the toppings.</li>
+                <li data-reveal>Sprinkle Italian seasoning for extra flavor.</li>
+                <li data-reveal>Bake for <strong>15–20 minutes</strong> until the crust becomes golden brown.</li>
+                <li data-reveal>Remove from the oven and let it cool for 2–3 minutes.</li>
+                <li data-reveal>Slice into pieces and serve hot.</li>
             </ol>
         </section>
 
-        <footer>
+        <footer data-reveal>
             <p>🍕 Fresh, cheesy, and delicious. Enjoy your homemade pizza!</p>
         </footer>
 
     </div>
 
+    <script src="../script.js"></script>
 </body>
 </html>
