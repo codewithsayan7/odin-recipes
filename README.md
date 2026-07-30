@@ -2,7 +2,7 @@
 
 A small, animated recipe website built as part of **The Odin Project — Foundations** course. What started as a basic HTML/CSS exercise has grown into a full mini design system: a warm "kitchen notebook" look, complete with taped-in photos, stamped stat cards, and scroll-triggered animations.
 
-**[View the recipes →](index.html)**
+**🔗 Live site: [codewithsayan7.github.io/odin-recipes](https://codewithsayan7.github.io/odin-recipes/)**
 
 ## Recipes included
 
