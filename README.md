@@ -1,56 +1,37 @@
-# 🍽️ Odin Recipes
+# Odin Recipes
 
-A small, animated recipe website built as part of **The Odin Project — Foundations** course. What started as a basic HTML/CSS exercise has grown into a full mini design system: a warm "kitchen notebook" look, complete with taped-in photos, stamped stat cards, and scroll-triggered animations.
+A small multi-page recipe website created while working through **The Odin Project — Foundations**.
 
-**🔗 Live site: [codewithsayan7.github.io/odin-recipes](https://codewithsayan7.github.io/odin-recipes/)**
+**Live site:** https://codewithsayan7.github.io/odin-recipes/
 
-## Recipes included
+## Pages
 
-- 🍝 Classic Lasagna
-- 🍕 Homemade Pizza
-- 🥞 Fluffy Pancakes
+- Classic Lasagna
+- Homemade Pizza
+- Fluffy Pancakes
 
-## Features
+## What the site includes
 
-- **Cookbook-inspired design** — cream paper background, serif display type (Fraunces), and a rust/olive/gold accent palette instead of a generic template look
-- **"Taped photo" treatment** — recipe images look pinned into the page with washi-tape corners
-- **Stamped stat cards** — prep time, cook time, servings, and difficulty for each recipe
-- **Scroll animations** — sections, ingredients, and steps fade in as you scroll, with staggered timing
-- **Count-up numbers** — stat values animate up from 0 when they come into view
-- **Accessible by default** — visible keyboard focus states, and all animation respects `prefers-reduced-motion`
-- **Fully responsive** — works down to mobile screen sizes
-
-## Folder structure
-
-```
-odin-recipes/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── recipes/
-    ├── lasagna.html
-    ├── pizza.html
-    └── pancakes.html
-```
-
-## Skills demonstrated
-
-- Semantic HTML structure (headings, lists, sections, links between pages)
-- CSS custom properties, gradients, and a reusable design token system
-- CSS animations and transitions (keyframes, staggered delays, hover states)
-- Vanilla JavaScript (`IntersectionObserver` for scroll reveals and count-up counters)
-- Responsive design with media queries
-- Git and GitHub for version control
+- A shared layout and stylesheet across the recipe pages.
+- Recipe ingredients, instructions and preparation details.
+- A responsive layout with a small-screen breakpoint.
+- Scroll-reveal effects and staggered page elements.
+- Count-up animations for preparation and serving details.
+- Reduced-motion handling for visitors who request less animation.
 
 ## Built with
 
-- HTML5 & CSS3
-- Vanilla JavaScript (no frameworks)
-- [Google Fonts](https://fonts.google.com/): Fraunces, Work Sans, Space Mono
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Google Fonts
 
-## Author
+The recipe photos are loaded from Wikimedia Commons. Google Fonts are loaded from Google Fonts.
 
-Made with ❤️ by **Sayan Banerjee**
+## Run locally
 
-© 2026 Odin Recipes. All Rights Reserved.
+Clone the repository and open `index.html` in a browser. No build step or JavaScript package installation is required.
+
+## Project context
+
+This is a learning project based on a curriculum exercise. It is useful for practising semantic HTML, multi-page navigation, CSS layout and animation, and small browser interactions. It is not a production recipe service.
